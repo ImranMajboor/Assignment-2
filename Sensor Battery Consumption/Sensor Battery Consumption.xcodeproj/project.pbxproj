@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D01F97520B98A350042C8FD /* BarmeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01F97420B98A350042C8FD /* BarmeterViewController.swift */; };
+		3D01F97720B9B2410042C8FD /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01F97620B9B2410042C8FD /* DonationsViewController.swift */; };
+		3D01F97920B9B2500042C8FD /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01F97820B9B2500042C8FD /* HelpViewController.swift */; };
+		3D01F97B20B9B2660042C8FD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01F97A20B9B2660042C8FD /* AboutViewController.swift */; };
+		3D2C710F20B6B55C00463A89 /* AccerlometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C710E20B6B55C00463A89 /* AccerlometerViewController.swift */; };
+		3D2C711120B6BCFA00463A89 /* GyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C711020B6BCFA00463A89 /* GyroViewController.swift */; };
+		3D2C711320B6C33E00463A89 /* MagneotometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C711220B6C33E00463A89 /* MagneotometerViewController.swift */; };
+		3D2C711920B6DCE600463A89 /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C711820B6DCE600463A89 /* ProximityViewController.swift */; };
 		3DFD5C76208CB9560021552F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD5C75208CB9560021552F /* AppDelegate.swift */; };
 		3DFD5C78208CB9560021552F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD5C77208CB9560021552F /* ViewController.swift */; };
 		3DFD5C7B208CB9560021552F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD5C79208CB9560021552F /* Main.storyboard */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D01F97420B98A350042C8FD /* BarmeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarmeterViewController.swift; sourceTree = "<group>"; };
+		3D01F97620B9B2410042C8FD /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
+		3D01F97820B9B2500042C8FD /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		3D01F97A20B9B2660042C8FD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3D2C710E20B6B55C00463A89 /* AccerlometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccerlometerViewController.swift; sourceTree = "<group>"; };
+		3D2C711020B6BCFA00463A89 /* GyroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroViewController.swift; sourceTree = "<group>"; };
+		3D2C711220B6C33E00463A89 /* MagneotometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneotometerViewController.swift; sourceTree = "<group>"; };
+		3D2C711820B6DCE600463A89 /* ProximityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
 		3DFD5C72208CB9560021552F /* Sensor Battery Consumption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sensor Battery Consumption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFD5C75208CB9560021552F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFD5C77208CB9560021552F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +74,14 @@
 			children = (
 				3DFD5C75208CB9560021552F /* AppDelegate.swift */,
 				3DFD5C77208CB9560021552F /* ViewController.swift */,
+				3D2C711020B6BCFA00463A89 /* GyroViewController.swift */,
+				3D2C710E20B6B55C00463A89 /* AccerlometerViewController.swift */,
+				3D2C711220B6C33E00463A89 /* MagneotometerViewController.swift */,
+				3D2C711820B6DCE600463A89 /* ProximityViewController.swift */,
+				3D01F97420B98A350042C8FD /* BarmeterViewController.swift */,
+				3D01F97620B9B2410042C8FD /* DonationsViewController.swift */,
+				3D01F97820B9B2500042C8FD /* HelpViewController.swift */,
+				3D01F97A20B9B2660042C8FD /* AboutViewController.swift */,
 				3DFD5C79208CB9560021552F /* Main.storyboard */,
 				3DFD5C7F208CB9560021552F /* Assets.xcassets */,
 				3DFD5C81208CB9560021552F /* LaunchScreen.storyboard */,
@@ -139,9 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2C711320B6C33E00463A89 /* MagneotometerViewController.swift in Sources */,
+				3D2C710F20B6B55C00463A89 /* AccerlometerViewController.swift in Sources */,
+				3D01F97B20B9B2660042C8FD /* AboutViewController.swift in Sources */,
 				3DFD5C78208CB9560021552F /* ViewController.swift in Sources */,
+				3D01F97720B9B2410042C8FD /* DonationsViewController.swift in Sources */,
+				3D2C711920B6DCE600463A89 /* ProximityViewController.swift in Sources */,
+				3D01F97520B98A350042C8FD /* BarmeterViewController.swift in Sources */,
+				3D2C711120B6BCFA00463A89 /* GyroViewController.swift in Sources */,
 				3DFD5C76208CB9560021552F /* AppDelegate.swift in Sources */,
 				3DFD5C7E208CB9560021552F /* Sensor_Battery_Consumption.xcdatamodeld in Sources */,
+				3D01F97920B9B2500042C8FD /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
